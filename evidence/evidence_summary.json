@@ -1,0 +1,47 @@
+{
+    "assessment": "Topic 17 - Refresh Strategies",
+    "refresh_count": 1,
+    "summary": "user: The project goal is to create a memory system. | assistant: The project needs reliable retrieval.",
+    "long_term_memory": [
+        "The project goal is to create a memory system.",
+        "The project needs reliable retrieval."
+    ],
+    "vector_store": [
+        "The project goal is to create a memory system.",
+        "The project needs reliable retrieval."
+    ],
+    "recent_messages": [
+        {
+            "role": "user",
+            "text": "The deadline is December."
+        },
+        {
+            "role": "assistant",
+            "text": "We will preserve recent conversation context."
+        }
+    ],
+    "retrieved_memory": [
+        "The project goal is to create a memory system.",
+        "The project needs reliable retrieval."
+    ],
+    "refresh_events": [
+        {
+            "refresh_number": 1,
+            "reason": "threshold",
+            "messages_before": 4,
+            "messages_summarized": 2,
+            "recent_messages_retained": 2,
+            "characters_before": 153,
+            "characters_after": 70,
+            "facts_extracted": 2,
+            "facts_stored": 2,
+            "retrieved_count": 0
+        }
+    ],
+    "context_size": 70,
+    "configuration": {
+        "threshold": 3,
+        "keep_recent": 2,
+        "max_chars": 500
+    }
+}
